@@ -1,0 +1,36 @@
+{
+	"name": "qhub-actions-public",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --verbose"
+	},
+	"jest": {
+		"verbose": true,
+		"transform": {
+			".js": "jest-esm-transformer"
+		},
+		"modulePathIgnorePatterns": [
+			"checker.js"
+		],
+		"reporters": [
+			"./__tests__/checker"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kportal-hub/qhub-actions-public.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kportal-hub/qhub-actions-public/issues"
+	},
+	"homepage": "https://github.com/kportal-hub/qhub-actions-public#readme",
+	"dependencies": {
+		"jest": "^24.9.0",
+		"jest-esm-transformer": "^1.0.0"
+	}
+}
