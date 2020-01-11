@@ -7,11 +7,9 @@ class MyReporter {
 		this._options = options;
 	}
 	onRunStart(runResults, runConfig) {
-		//console.log(`😍onRunStart arguments: ${JSON.stringify(arguments)}`);
 	}
 
 	onTestResult(testRunConfig, testResults, runResults) {
-		//console.log(`😍onTestResult arguments: ${JSON.stringify(arguments)}`);
 	}
 
 	onRunComplete(test, runResults) {
